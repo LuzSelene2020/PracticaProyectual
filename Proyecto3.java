@@ -7,6 +7,12 @@ public class Proyecto3 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
+		/* Recomiendo usar nombres significativos para las variables.
+		 * si el codigo del programa aumenta y son muchas lineas de codigo, 
+		 * queda mas legible usar como nombre una referencia a lo que representa la variable.
+		 * Por ejemplo si trabajo con fechas, en vez de numeroA, numeroB podrian llamarse diaA, mesA, etc 
+		 */
+		
 		int numeroA;
 		int numeroB;
 		int numeroC;
@@ -43,7 +49,7 @@ public class Proyecto3 {
 		           if(numeroC<numeroCC) {
 				System.out.println("La fecha más reciente es:" + numeroA numeroB numeroC);
 			} else {
-				
+				//¿ que pasaria si numeroC fuera igual a numeroCC? ¿seria mas reciente la fecha 2?
 		System.out.println("La fecha más reciente es:" + numeroAA numeroBB numeroCC);
 		
 
