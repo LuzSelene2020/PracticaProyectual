@@ -1,12 +1,11 @@
+package Proyecto7bis;
+//Ejercicio 7
 
-public class Principal {
+import java.util.Scanner;
+
+public class Proyecto7bis {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-// Aquí voy a poner mi código
-	Proyecto7bis();
-	}
-	public static void Proyecto7bis() {
 		
 int i;
 
@@ -21,4 +20,3 @@ int i;
 	System.out.println(i);
 }
 }
-
